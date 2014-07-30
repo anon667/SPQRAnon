@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 namespace Anthrax
 {
         
-    public class Hunter_Survival_Anon : Modules.ICombat
+    public class Hunter_Anon : Modules.ICombat
     {
         public static int currentTick = 0;
         public static int lastActionTick = 0;
