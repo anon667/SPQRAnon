@@ -219,15 +219,6 @@ namespace Anthrax
             AMurderOfCrows = 131894,            
         }
 
-        internal enum Auras : int                       //This is another convenient list of Auras used in our combat routine
-        {												//you can have those in wowhead.com (again) and get the id in url
-            SerpentSting = 118253,//1978,
-            SteadyFocus = 53220,//53224
-            InstantAimedShot = 82926,
-            WidowVenom = 82654,
-            ThrillOfTheHunt = 34720
-        }
-
         public static class RuleBank
         {
             // Key Rules
@@ -406,15 +397,6 @@ namespace Anthrax
                 Log("Total time:" + sw.ElapsedMilliseconds.ToString());
             }
         }        
-
-        public enum CallPetSpells : int
-        {
-            CallPet1 = 883,
-            CallPet2 = 83242,
-            CallPet3 = 83243,
-            CallPet4 = 83244,
-            CallPet5 = 83245,
-        }
 
         public override string Name
         {
